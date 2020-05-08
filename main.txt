@@ -1,5 +1,6 @@
 //  made by Itsokbutnotok   ?   I don't know what to write here
 //  v.2 released 5/9/2020
+//input pins for the joystick are on lines 117/118
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>

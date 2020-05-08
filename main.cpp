@@ -1,5 +1,6 @@
 //  made by Itsokbutnotok   ?   I don't know what to write here
 //  v.2 released 5/9/2020
+//input pins for the joystick are on lines 117/118
 #include <Arduino.h>
 #include <Wire.h>
 #include <Adafruit_GFX.h>
@@ -37,7 +38,7 @@ const unsigned char car [] PROGMEM = {
 	0x8f, 0xff, 0xf8, 0x08, 0x41, 0x04, 0x10, 0x10, 0x3f, 0xff, 0xff, 0xe0, 0x1f, 0x00, 0x27, 0xc0, 
 	0x00, 0x00, 0x40, 0x00
 };
-//csikok megrajzolasa
+//drawing the lines
 int csik(int x)
 {   
     display.drawFastHLine(x,20,14,1);
